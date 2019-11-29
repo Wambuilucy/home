@@ -1,0 +1,131 @@
+ <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascrit"
+    src="validate.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="manual.html">
+</head>
+<body>
+    <form action="#" name="Birthday calculator" 
+    onsubmit="return(validate());">
+    <table cellpadding="20" width="100%" bg-color="black" align ="center"
+    cellspacing="2">
+        <td colspan=2>
+            <center><h3style="background-color:red"><font size=4><b>This is a form calculating the date of birth and determines the gender and the ghanian name.If male or female, it will give the akan name after submision.This is a website designed using HTML, CSS and JavaScript. Based on the website, 
+                    a user is expected to select a birth date and their respective gender and an 
+                    Akan name will be generated based on his/her inputs and Gender. 
+                     </b></font></h3style></center>
+        </td>
+        </tr>
+
+        <tr>
+            <td>       
+                <h2>Enter your Birth Date:</h2>
+                </tr>
+            </td>
+
+      <tr>
+          <td>Birthdate</td>
+           <td><input type="text" name="Pincode"id="pincode" size ="0"></td> 
+      <td><select Name="State">
+          <option Value="-1 selected">DD</option>
+          <option value="dd">1st</option>
+          <option value="dd">2nd</option> 
+          <option value="dd">3rd</option>
+          <option value="dd">4th</option>
+          <option value="dd">5th</option>
+          <option value="dd">6th</option>
+          <option value="dd">7th</option>
+          <option value="dd">8th</option>
+          <option value="dd">9th</option> 
+          <option value="dd">10th</option>
+          <option value="dd">11th</option>
+          <option value="dd">12th</option>
+          <option value="dd">13th</option>
+          <option value="dd">14th</option>
+          <option value="dd">15th</option>
+          <option value="dd">16th</option> 
+          <option value="dd">17th</option>
+          <option value="dd">18th</option>
+          <option value="dd">19th</option>
+          <option value="dd">18th</option>
+          <option value="dd">19thth</option>
+          <option value="dd">20th</option>
+          <option value="dd">21st</option> 
+          <option value="dd">22nd</option>
+          <option value="dd">23rd</option>
+          <option value="dd">24th</option>
+          <option value="dd">25th</option>
+          <option value="dd">26th</option>
+          <option value="dd">27th</option>
+          <option value="dd">28th</option>
+          <option value="dd">29th</option> 
+          <option value="dd">30th</option>
+          <option value="dd">31st</option>
+          <option value="dd">32nd</option>
+      </select></td></tr>
+      <tr>
+      <td>BirthMonth</td>
+       <td><input type="text" id="Month"></td> 
+      <td><select Name="State">
+          <option Value="-1 selected">MM</option>
+          <option value="mm">January</option>
+          <option value="mm">february</option> 
+          <option value="mm">march</option>
+          <option value="mm">April</option>
+          <option value="mm">May</option>
+          <option value="mm">June</option>
+          <option value="mm">July</option>
+          <option value="mm">August</option>
+          <option value="mm">September</option> 
+          <option value="mm">October</option>
+          <option value="mm">November</option>
+          <option value="mm">Desember</option>
+      </select></td></tr>
+
+      <tr>
+        <td>Birthyear</td>
+         <td><input type="text" name="Month" id="Month"></td> 
+        <td><select Name="State">
+            <option Value="-1 selected">YY</option>
+            <option value="yy">2005</option>
+            <option value="yy">2004</option> 
+            <option value="yy">2003</option>
+            <option value="yy">2002</option>
+            <option value="yy">2001</option>
+            <option value="yy">2000</option>
+            <option value="yy">1999</option>
+            <option value="yy">1998</option>
+            <option value="yy">1997</option> 
+            <option value="yy">1996</option>
+            <option value="yy">1995</option>
+            <option value="yy">1994</option>
+        </select></td></tr>
+       <tr>
+           <td>
+        <div class="radio button">
+                <input type="radio" name="gender" value="male" id="maleRadio" />Male
+                <input type="radio" name="gender" value="female" id="femaleRadio"/>Female
+                </div></td></tr>     
+
+        <tr>
+            <td>
+         <p> <input type="button" value="Submit" onclick="calculate(form)"></p>
+        <p> Date of Birth: <input type="text" name="result1" size="18"></p>
+        <p> Day of the Week: <input type="text" name="result2" size="18"></p>
+        <p> Your Akan Name: <textarea name="result3" rows="2" cols="50"></textarea></p>       
+    </table>  
+    <footer>
+
+    <p>
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made by Kinyanjui Lucy Wambui</a>
+    </p>
+    </footer>
+</form> 
+</body>
+</html>
