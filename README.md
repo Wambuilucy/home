@@ -1,6 +1,6 @@
 ##Akan Name Generator
 This repository contains code for a web application that assigns a user an Akan name depending on the day they were born and their gender.The current version is 2.0.0 beta
-By Ibrahim M.
+By Kinyanjui Lucy Wambui.
 Description
 The webpage simply consumes a users date of birth and gender and from an array of preset names selects one depending on the same. The names are borrowed from the popular Kan tribe of Ghana. The naming tradition is passed from one generation to another.
 
