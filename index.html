@@ -18,6 +18,27 @@
     <h3> This is a website designed using HTML, CSS and JavaScript. Based on the website,
         a user is expected to select a birth date and their respective gender and an
         Akan name will be generated based on his/her inputs and Gender. </h3>
+        <p>See a small description of what the application does on the landing page.
+            Get my Akan name by supplying my gender and date of birth
+            Enter my birthday through a form
+            Choose what gender I am.
+            Click the submit button to see what my Akan name would be
+            Background: Given the following days of the week and corresponding day of birth depending on Gender
+            
+            Days and Gender
+            Day	Male	Female
+            Sunday	Kwasi	Akosua
+            Monday	Kwadwo	Adwoa
+            Tuesday	Kwabena	Abenaa
+            Wednesday	Kwaku	Akua
+            Thursday	Yaw	Yaa
+            Friday	Kofi	Afua
+            Saturday	Kwame	Ama
+            SCENARIO: Enter birthdate and gender GIVEN:My Birthdate is 2019/9/22, and Gender is male WHEN: I ask for my Akan Name THEN: The system should give me Kwasi
+            
+            SCENARIO:Enter invalid date or no gender or either GIVEN: My Birthdate is YY/MM/DD WHEN: I ask for my Akan Name THEN: The system should raise an error flag alerting me that the credentials are wrong
+            </p>
+            <p></p>
     <form action="" onsubmit="submitForm(event)" name="akanForm">
         <label for="birthday">birthday</label>
         <input type="date" name="birthday" id="birthday">
