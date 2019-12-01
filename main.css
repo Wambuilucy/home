@@ -1,10 +1,35 @@
  body{
     text-align: center;
-    background-color: burlywood;
+    width:400px;
+    height:700px;
+    background-image: url(https://i.pinimg.com/564x/2c/e2/4e/2ce24e616b98cd871e67defb356bbcaf.jpg);
+    background-position:right bottom,left top;
+    background-repeat:no-repeat;
     font-size: large;
-    border:20px;
+    border:5px;
     margin:10px;
-    padding: 20px;
-    text-align:center; 
-}
+    padding: 20px; 
+    word-spacing:10px;
 
+}
+p{
+    justify-content:justify;
+    color: grey;
+    word-spacing:2px;
+    font-size:15px;
+}
+font-size:130%;
+font-family:;
+font-weight:lighter;
+font-decoration:blink;
+word-spacind:30px;
+text-tranceform:;
+display:block;
+float:right;
+{
+    width:400px;
+    height:300px;
+    background-image:;
+    background-position:right bottom,left top;
+    background-repeat:no-repeat;
+}
