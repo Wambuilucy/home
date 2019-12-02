@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +7,27 @@
     <title>Document</title>
     <script type="text/javascrit"></script>
     <script src="./index.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="./index.js">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="./manual.html">
 </head>
 
 <body>
-    <h1>Akan Names</h1>
-    <h3> This is a website designed for a user is expected to select a birth date and their respective gender and an
-        Akan name will be generated based on his/her inputs and Gender. </h3>
+        <div class="jumbotron">
+            <h1>Akan Names</h1>
+        </div>
+            <div class="container">
+            <h3> This is a website designed for a user is expected to select a birth date and their respective gender
+                and an
+                Akan name will be generated based on his/her inputs and Gender. </h3>
             <h1>About.</h1>
             <h1>The Background</h1>
-            <p>The naming system of the Akan people is as distinct as that which elders in Togo (the Ewe people), the Ga people, Benin (the Fon people), and the African diaspora pass on to toddlers.</p>
+            <p>The naming system of the Akan people is as distinct as that which elders in Togo (the Ewe people), the Ga
+                people, Benin (the Fon people), and the African diaspora pass on to toddlers.</p>
             <h1>System</h1>
-            <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week (‘nnanson‘), with the seventh day inclusive.</p>
+            <p>The Akan people use the Kwa language group’s system of timekeeping, which is based on a six-day week
+                (‘nnanson‘), with the seventh day inclusive.</p>
             <h1>Variation</h1>
             <p>Aside the main day names, there are variants and flexibly diverse adjustments.</p>
             <h1>Standard</h1>
@@ -32,39 +38,45 @@
                 Choose what gender I am.
                 Click the submit button to see what my Akan name would be
                 Background: Given the following days of the week and corresponding day of birth depending on Gender
-                
-                Days and Gender
-                Day	Male	Female
-                Sunday	Kwasi	Akosua
-                Monday	Kwadwo	Adwoa
-                Tuesday	Kwabena	Abenaa
-                Wednesday	Kwaku	Akua
-                Thursday	Yaw	Yaa
-                Friday	Kofi	Afua
-                Saturday	Kwame	Ama
-                SCENARIO: Enter birthdate and gender GIVEN:My Birthdate is 2019/9/22, and Gender is male WHEN: I ask for my Akan Name THEN: The system should give me Kwasi
-                
-                SCENARIO:Enter invalid date or no gender or either GIVEN: My Birthdate is YY/MM/DD WHEN: I ask for my Akan Name THEN: The system should raise an error flag alerting me that the credentials are wrong
-                </p>
-            <h1>Get your Akan Name here:</h1>
-    <form action="" onsubmit="submitForm(event)" name="akanForm">
-        <label for="birthday">birthday</label>
-        <input type="date" name="birthday" id="birthday">
-        <select name="gender" id="gender">
-            <option value="male">Male</option>
-            <option value="female">Female</option>
-        </select>
-        <button type="submit">Check name</button>
-    </form>
-    <h4>Your Akan name is <span id="akanName"> </span></h4>
-</body>
-<footer><footer>  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" class="responsive"> 
-    <div class="icon-bar" id="icon"> 
-    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>  
-    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>  
-    <a href="#" class="google"><i class="fa fa-google"></i></a> 
-    <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a> 
-    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> </footer>
 
+                Days and Gender
+                Day Male Female
+                Sunday Kwasi Akosua
+                Monday Kwadwo Adwoa
+                Tuesday Kwabena Abenaa
+                Wednesday Kwaku Akua
+                Thursday Yaw Yaa
+                Friday Kofi Afua
+                Saturday Kwame Ama
+                SCENARIO: Enter birthdate and gender GIVEN:My Birthdate is 2019/9/22, and Gender is male WHEN: I ask for
+                my Akan Name THEN: The system should give me Kwasi
+
+                SCENARIO:Enter invalid date or no gender or either GIVEN: My Birthdate is YY/MM/DD WHEN: I ask for my
+                Akan Name THEN: The system should raise an error flag alerting me that the credentials are wrong
+            </p>
+
+            <h1>Get your Akan Name here:</h1>
+            <form action="" onsubmit="submitForm(event)" name="akanForm">
+                <label for="birthday">birthday</label>
+                <input type="date" name="birthday" id="birthday">
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <button type="submit">Check name</button>
+            </form>
+            <h4>Your Akan name is <span id="akanName"> </span></h4>
+
+    </div>
+</body>
+    <footer>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            class="responsive">
+        <div class="icon-bar" id="icon">
+            <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa fa-google"></i></a>
+            <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </footer>
 </html>

@@ -1,0 +1,31 @@
+ body{
+    text-size-adjust: 100%;
+    box-sizing:border-box;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAkFBMVEXOESYAaz/80RYAAADKACcAYUH/2hX/1xFpVwn/1Bb/1hf/0xb5zxbatRPfuRPHpRF2Ygp9aAuCbAvTrxL/3xXOqxKJcgyUew0uJgRaSwhqWAllUwkfGgPCoRHvxhWZfw20lQ9TRQehhQ4OCwHxyBWxmw0lHgMZFQE8MgU2LARJPAYVEgHmvxQpIgO5lQgAZ0IwSVoeAAADmUlEQVR4nO3a2VLiQBSAYcae6ZAOiyBugCuO6Ij6/m83AmEJhwSktM+p8v8uLS/CXzlZOl2rAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAfNJvKwwdiTei97enfQgLtSMjGq6hfQgLVpqkbddOtQ8iZ6VJcuyOE+2DyFlpEpxzQfsgckaafIyOMzM8RpoknY8mHSPDY6TJdHTMDI+NJunprMmpjeGx0STpzpp0bQyPjSbZcNZkmGkfyIyJJumJmzsxMTwmmoSzvMmZiausjSaPeZNHmuTSpltoWriiWGgSzpdNzi2cKBaa+PGyydhrH8yRiSZZy620DAyPgSZro2NjeAw08RdrTS4MDI9+k8LomBge/SbhptDkRn944jXJku38U6HJky/5v3jnT7QmWfNyUN+iP3BFg/62fxtcxnuci3eehNbQHW7YijdTEa8naegcnKQTIr4xR73G+qsDk1xFvUPHve+E638HFLm7jnsvinwvzjbuvPu4CZEfWaI/n/jmeHeGNeNm9Cfb+M9sodH/RJJ+I/4znMJzbOZv905yq/H6o/JsHybPexV5nqg86Ou876TLVekqZ7Evrjmtd0Df3pmkrbVsoPZeHB7uKovcPai9IOutFWT+viLJvddbR9FcP/HNUUmRUUvzy7HumlLpaaK62KbZJJS/El5prrapzk69tEldc6las0mj4hqruVlWsUnF6OgOj2ITX/Uu2FccHsUmVaOjOjx6TdLqp3vFzbJ6TZLjYoSNVUnFneaKs7NxUe1tXHL1DkytSb4ldnGSXIfNBWy9zbJqTZL1jz3zZejiAnb3570X+9WvHy2Xof3JaPVntbuxVpO10amvLUOHxup5X214tJqE7uKn3xZ2DGTJcgFbbXjUmrzMf/iFWIYOk3zf0ssPa7LYTd7d8m08XZxDWjvNlZrk6/Yly9D5ArbWTnOt8+TVVS1DzxewX3/UeTLbTX5fsR0rS6YL2Eo7zXWahHM33PFtfPqtXWmzrFIT1z/a9Xun39qVmpTsMvxWfvLW2+O/em+Tsk2Q36r2R8P7+1f+21er/cImmkg0kWgi0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNJJpINJFoItFEoolEE4kmEk0kmkg0kWgi0USiiUQTiSYSTSSaSDSRaCLRRKKJRBOJJhJNJJpINJFoItFEoolEE4kmEk0kmkg0kWgi0USiiUQTiSYSTSSaSDSRaCL9B+UY8eCmZg7bAAAAAElFTkSuQmCC);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-size: large;
+    font-weight: 400;
+    border:5px;
+    margin:10px;
+    padding: 20px; 
+    word-spacing:10px;
+    color: steelblue;
+    display: block;
+    line-height:24px;
+
+}
+.Jumbotron{
+    justify-content:justify;
+    color: slategrey;
+    word-spacing:2px;
+    font-size:15px;
+    
+
+}.Jumbotron p{
+    height: auto;
+    width: 250px;
+    display: inline-block;  
+    display: flex;
+    flex-direction: row;
+}
