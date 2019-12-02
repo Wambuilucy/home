@@ -592,6 +592,8 @@ pre code {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  background: slategray;
+  background: thistle;
 }
 
 .no-gutters {
