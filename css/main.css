@@ -10,14 +10,14 @@
     margin:10px;
     padding: 20px; 
     word-spacing:10px;
-    color:black;
+    color: red;
     line-height:24px;
 
 }
 
 h1{
-    text-decoration-color: lawngreen;
+    text-decoration-color: skyblue;
 }
 p{
-    text-decoration-color: black;
+    text-decoration-color: skyblue;
 }
