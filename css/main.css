@@ -1,7 +1,7 @@
   body{
     text-size-adjust: 100%;
     box-sizing:border-box;
-    background-image: url("https://images.pexels.com/photos/893179/pexels-photo-893179.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/953691/pexels-photo-953691.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-attachment: fixed;
     background-repeat:no-repeat;
     font-size: large;
@@ -10,7 +10,7 @@
     margin:10px;
     padding: 20px; 
     word-spacing:10px;
-    color:blue;
+    color:black;
     line-height:24px;
 
 }
